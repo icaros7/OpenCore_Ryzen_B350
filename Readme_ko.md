@@ -1,4 +1,4 @@
-# OpenCore 0.7.5 for 라이젠 1600X, B350, RX480
+# OpenCore 0.7.7 for 라이젠 1600X, B350, RX480
 ## 사용 전 필독
 ```
 본 부트로더는 config.plist 의 PlatformInfo 의 일부 정보가 모두 지워져 있으며,
@@ -14,7 +14,7 @@ AMD 바닐라 패치의 CPU 코어 수가 모두 1600X 기준으로 6개로 설�
 ![](screenshot.png)
 
 # 1. 안내
-OpenCore 0.7.5를 기반으로 만들어진 최신 버전의 OpenCore 부트로더 입니다. 6코어 라이젠 및 MSI B350M 박격포 보드에 즉각적인 해킨토시 설치 및 실사용 가능 합니다.
+OpenCore 0.7.7를 기반으로 만들어진 최신 버전의 OpenCore 부트로더 입니다. 6코어 라이젠 및 MSI B350M 박격포 보드에 즉각적인 11.11 빅서 혹은 12.x 몬테레이 해킨토시 설치 및 실사용 가능 합니다.
 
 아래 사항을 **꼭 숙지하시고 사용**하여 주십시오.
 
@@ -63,6 +63,8 @@ OpenCore 0.7.5를 기반으로 만들어진 최신 버전의 OpenCore 부트로�
 - 애플 단축키: 활성화
 - iMac (레티나 4K, 21.5-inch, 2019년) 모델 (`iMac19,2`)
 - 1600x용 AMD 커널 패치 (6코어용)
+- `FeatureUnlock` kext 포함 ([acidanthera/FeatureUnlock](https://github.com/acidanthera/FeatureUnlock) 확인)
+    - 12.x를 위한 `사이드카` 활성
 
 # 4. Special Thanks To
 - [@acidanthera](https://github.com/acidanthera) - [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) 및 기타 등등

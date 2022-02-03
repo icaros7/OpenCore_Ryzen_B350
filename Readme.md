@@ -1,4 +1,4 @@
-# OpenCore 0.7.5 for Ryzen 1600X, B350, RX480
+# OpenCore 0.7.7 for Ryzen 1600X, B350, RX480
 ## MUST BE READ
 ```
 This bootloader's config.plist was deleted some value of Platforminfo and
@@ -15,7 +15,7 @@ Checkout follow [1. Information](#1-information)!
 ![](screenshot.png)
 
 # 1. Information
-The laest version of OpenCore that based on OpenCore 0.7.5. You can use this bootloader for hackintosh install & daily-use on 6-Core Ryzen & MSI B350M Mortar.
+The laest version of OpenCore that based on OpenCore 0.7.7. You can use this bootloader for hackintosh install & daily-use on 6-Core Ryzen & MSI B350M Mortar at 10.11 Big Sur or 12.x Monterey.
 
 Please keep your mind follow:
 
@@ -63,6 +63,8 @@ Include following configuration
 - Apple Hot Key: Enable
 - iMac (Retina 4K, 21.5-inch, 2019) Model (`iMac19,2`)
 - AMD Kernel Patch for 1600x (set for Six Core)
+- `FeatureUnlock` kext include (Check out [acidanthera/FeatureUnlock](https://github.com/acidanthera/FeatureUnlock))
+    - Enabled `Sidecar` for 12.x
 
 # 4. Special Thanks To
 - [@acidanthera](https://github.com/acidanthera) - [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) and etc...
